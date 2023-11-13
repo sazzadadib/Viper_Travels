@@ -190,7 +190,7 @@ h3{
     /* border: 1px solid black; */
     width: 100vw;
     height: 100vh;
-    
+
 }
 
 
@@ -317,7 +317,7 @@ h3{
     /* border: 1px solid black; */
     width: 100vw;
     height: 100vh;
-    
+
 }
 
 
@@ -438,14 +438,14 @@ h3{
 .footer-distributed .footer-left,
 .footer-distributed .footer-center,
 .footer-distributed .footer-right{
-    display: inline-block;
+	display: inline-block;
 	vertical-align: top;
 }
 
 /* Footer left */
 
 .footer-distributed .footer-left{
-    width: 40%;
+	width: 40%;
 }
 
 /* The company logo */
@@ -471,21 +471,21 @@ h3{
 /* Footer links */
 
 .footer-distributed .footer-links{
-    color:  #ffffff;
+	color:  #ffffff;
 	margin: 20px 0 12px;
 	padding: 0;
 }
 
 .footer-distributed .footer-links a{
-    display:inline-block;
+	display:inline-block;
 	line-height: 1.8;
-    font-weight:400;
+  font-weight:400;
 	text-decoration: none;
 	color:  inherit;
 }
 
 .footer-distributed .footer-company-name{
-    color:  #a8a6a6;
+	color:  #a8a6a6;
 	font-size: 14px;
 	font-weight: normal;
 	margin: 0;
@@ -498,7 +498,7 @@ h3{
 }
 
 .footer-distributed .footer-center i{
-    background-color:  #33383b;
+	background-color:  #33383b;
 	color: #ffffff;
 	font-size: 25px;
 	width: 38px;
@@ -511,52 +511,52 @@ h3{
 }
 
 .footer-distributed .footer-center i.fa-envelope{
-    font-size: 17px;
+	font-size: 17px;
 	line-height: 38px;
 }
 
 .footer-distributed .footer-center p{
-    display: inline-block;
+	display: inline-block;
 	color: #ffffff;
-    font-weight:400;
+  font-weight:400;
 	vertical-align: middle;
 	margin:0;
 }
 
 .footer-distributed .footer-center p span{
-    display:block;
+	display:block;
 	font-weight: normal;
 	font-size:14px;
 	line-height:2;
 }
 
 .footer-distributed .footer-center p a{
-    color:  lightseagreen;
+	color:  lightseagreen;
 	text-decoration: none;;
 }
 
 .footer-distributed .footer-links a:before {
-    content: "|";
-    font-weight:300;
-    font-size: 20px;
-    left: 0;
-    color: #fff;
-    display: inline-block;
-    padding-right: 5px;
+  content: "|";
+  font-weight:300;
+  font-size: 20px;
+  left: 0;
+  color: #fff;
+  display: inline-block;
+  padding-right: 5px;
 }
 
 .footer-distributed .footer-links .link-1:before {
-    content: none;
+  content: none;
 }
 
 /* Footer Right */
 
 .footer-distributed .footer-right{
-    width: 20%;
+	width: 20%;
 }
 
 .footer-distributed .footer-company-about{
-    line-height: 20px;
+	line-height: 20px;
 	color:  #92999f;
 	font-size: 13px;
 	font-weight: normal;
@@ -564,7 +564,7 @@ h3{
 }
 
 .footer-distributed .footer-company-about span{
-    display: block;
+	display: block;
 	color:  #ffffff;
 	font-size: 14px;
 	font-weight: bold;
@@ -572,22 +572,22 @@ h3{
 }
 
 .footer-distributed .footer-icons{
-    margin-top: 25px;
+	margin-top: 25px;
 }
 
 .footer-distributed .footer-icons a{
-    display: inline-block;
+	display: inline-block;
 	width: 35px;
 	height: 35px;
 	cursor: pointer;
 	background-color:  #33383b;
 	border-radius: 2px;
-    
+
 	font-size: 20px;
 	color: #ffffff;
 	text-align: center;
 	line-height: 35px;
-    
+
 	margin-right: 3px;
 	margin-bottom: 5px;
 }
@@ -595,187 +595,22 @@ h3{
 /* If you don't want the footer to be responsive, remove these media queries */
 
 @media (max-width: 880px) {
-    
-    .footer-distributed{
-        font: bold 14px sans-serif;
+
+	.footer-distributed{
+		font: bold 14px sans-serif;
 	}
-    
+
 	.footer-distributed .footer-left,
 	.footer-distributed .footer-center,
 	.footer-distributed .footer-right{
-        display: block;
+		display: block;
 		width: 100%;
 		margin-bottom: 40px;
 		text-align: center;
 	}
-    
+
 	.footer-distributed .footer-center i{
-        margin-left: 0;
+		margin-left: 0;
 	}
-    
-}
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-/* ==========================Image Slider================================ */
-
-
-
-
-
-
-.container{
-    position: absolute;
-    left:50%;
-    top:50%;
-    transform: translate(-50%,-50%);
-    width:100%;
-    height:95%;
-    padding:50px;
-    background-color: #f5f5f5;
-    box-shadow: 0 30px 50px #dbdbdb;
-}
-#slide{
-    width:max-content;
-    margin-top:50px;
-}
-.item{
-    width:200px;
-    height:300px;
-    background-position: 50% 50%;
-    display: inline-block;
-    transition: 0.5s;
-    background-size: cover;
-    position: absolute;
-    z-index: 1;
-    top:50%;
-    transform: translate(0,-50%);
-    border-radius: 20px;
-    box-shadow:  0 30px 50px #505050;
-}
-.item:nth-child(1),
-.item:nth-child(2){
-    left:0;
-    top:0;
-    transform: translate(0,0);
-    border-radius: 0;
-    width:100%;
-    height:100%;
-    box-shadow: none;
-}
-.item:nth-child(3){
-    left:50%;
-}
-.item:nth-child(4){
-    left:calc(50% + 220px);
-}
-.item:nth-child(5){
-    left:calc(50% + 440px);
-}
-.item:nth-child(n+6){
-    left:calc(50% + 660px);
-    opacity: 0;
-}
-.item .imgcontent{
-    position: absolute;
-    top:50%;
-    left:100px;
-    width:300px;
-    text-align: left;
-    padding:0;
-    color:#000000;
-    /* text-shadow: #3b2c2c; */
-    /* font-weight: 500; */
-    transform: translate(0,-50%);
-    display: none;
-    font-family: system-ui;
-}
-.item:nth-child(2) .imgcontent{
-    display: block;
-    z-index: 11;
-}
-.item .name{
-    font-size: 40px;
-    font-weight: bold;
-    opacity: 0;
-    -webkit-text-stroke: 1px #ffffff;   
-    animation:showcontent 1s ease-in-out 1 forwards
-
-}
-.item .des{
-    margin:20px 0;
-    opacity: 0;
-    -webkit-text-stroke: 1px #ffffff;   
-    animation:showcontent 1s ease-in-out 0.3s 1 forwards
-}
-.item button{
-    padding:10px 20px;
-    border:none;
-    opacity: 0;
-    animation:showcontent 1s ease-in-out 0.6s 1 forwards
-}
-@keyframes showcontent{
-    from{
-        opacity: 0;
-        transform: translate(0,100px);
-        filter:blur(33px);
-    }to{
-        opacity: 1;
-        transform: translate(0,0);
-        filter:blur(0);
-    }
-}
-.buttons{
-    position: absolute;
-    bottom:30px;
-    z-index: 22;
-    text-align: center;
-    width:100%;
-}
-.buttons button{
-    width:50px;
-    height:50px;
-    border-radius: 50%;
-    border:1px solid #555;
-    transition: 0.5s;
-}.buttons button:hover{
-    background-color: #bac383;
-}
-
-.places{
-    position: absolute;
-    top:0%;
-    left:630px;
-    width:700px;
-    padding:0;
-    color:#eee;
-    transform: translate(0,-50%);
-    font-family: 'Agbalumo';
-    font-size: 90px;
-    z-index: 1;
 
 }
