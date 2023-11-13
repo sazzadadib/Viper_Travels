@@ -1,0 +1,352 @@
+body{
+    font-family:'Times New Roman', Times, serif;
+    font-size: 100%;
+    font-size: 16px;
+    line-height: 1.5;
+    background: #f0f4fb;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    background-image: url('https://bogatyr.club/uploads/posts/2023-03/thumbs/1679412960_bogatyr-club-p-ornament-na-chernom-fone-vkontakte-11.jpg');
+    background-size: cover; /* This property ensures the image covers the entire background */
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+.site-container{
+    margin: 2rem auto;
+    max-width: calc(100% - 80px);
+}
+.article-container{
+    display: grid;
+    grid-template-columns: repeat(auto-fill,minmax(265px,1fr));
+    gap: 2rem;
+
+}
+.article-image{
+    margin:0;
+    padding:0;
+    overflow:hidden;
+}
+.article-image img{
+    max-width: 100%;
+    height:200px;
+    /* height:auto; */
+    border-radius: 20px 20px 0 0;
+}
+.article-card{
+    background: rgba(255, 255, 255, 0.747);
+    border-radius: 20px;
+    transform: 0.3s;
+}
+.article-card:hover {
+    box-shadow: 0 4px 20px 0 rgba(34,68,123,0.2);
+    cursor: pointer;
+}
+.article-content{
+    padding: 2rem;
+}
+.article-content .card-category{
+    font-size:0.875rem;
+    text-transform: uppercase;
+    letter-spacing: 0.1em;
+    color:#6b82a7;
+    display: block;
+    text-decoration: none;
+}
+.article-content .card-title{
+    margin: 1rem 0;
+    color: #22447b;
+}
+.article-content .card-excerpt{
+    font-size: 1rem;
+    line-height: 1.5rem;
+    color:#6b82a7;
+    margin: 0;
+}
+@media screen and (min-width:768px){
+    .site-container{
+        max-width:608 px;
+    }
+    .article-card{
+        display: grid;
+        grid-template-rows: 220px 1fr;
+    }
+}
+@media screen and (min-width: 1280px){
+    .site-container{
+        max-width: 1156px;
+    }
+}
+
+
+/* CSS for navigation bar */
+.navbar {
+    background-color: #333;
+    overflow: hidden;
+    position: fixed; /* Fix the navigation bar at the top */
+    top: 0; /* Place it at the top of the viewport */
+    left: 0; /* Align it to the left */
+    right: 0; /* Align it to the right */
+    z-index: 100; /* Ensure it appears above other content */
+}
+
+.navbar a {
+    float: left;
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+/* Style for the logo */
+.navbar a:first-child img {
+    width: 50px; /* Adjust the width as needed */
+    height: auto; /* Maintain the aspect ratio */
+    margin-right: 5px; 
+}
+
+.navbar a:hover {
+    background-color: #ddd;
+    color: black;
+}
+
+/* CSS for login and register */
+.login-register {
+    float: right;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+/*Design for add bus pop up  section */
+/*Design for add bus pop up  section */
+/*Design for add bus pop up  section */
+/*Design for add bus pop up  section */
+/*Design for add bus pop up  section */
+
+
+
+
+/* Style for the ADD BUS button */
+.add-loc-button {
+    position: relative;
+    /* top: 10px; */
+    left: 100%;
+    width: 180px;
+    height: 50px;
+    background-color: #0d7c02;
+    color: rgb(255, 255, 255);
+    padding: 5px 10px;
+    border: none;
+    font-weight: 900;
+    cursor: pointer;
+}
+.add-loc-button:hover {
+    background-color: #034612;
+} 
+
+
+
+/* Styles for the modal container */
+.modal {
+    display: none; /* Hide the modal by default */
+    position: fixed;
+    z-index: 1;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.7);
+}
+
+/* Styles for the modal content */
+.modal-content {
+    background-color: #fff;
+    margin: 15% auto;
+    top: -170px;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    width: 90%;
+    max-width: 400px;
+    position: relative;
+}
+
+/* Styles for the close button (the "x" symbol) */
+.close {
+    position: absolute;
+    top: 0;
+    right: 0;
+    padding: 10px;
+    color: red;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+/* Styles for the form labels and input fields */
+label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+input[type="text"] {
+    width: 90%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+/* Style the submit button */
+input[type="submit"] {
+    background-color: #4CAF50;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    padding: 10px 20px;
+    cursor: pointer;
+}
+
+/* Hover effect for the submit button */
+input[type="submit"]:hover {
+    background-color: #45a049;
+}
+.editdelbtn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px; /* Adjust the gap between buttons */
+    border-radius: 50%;
+}
+
+/* Style for the Edit button */
+.edit-button {
+    background-color: #4CAF50; 
+    color: white; /* White text color */
+    border: none; /* Remove border */
+    padding: 10px 20px; /* Add some padding */
+    cursor: pointer; /* Add a pointer cursor on hover */
+    font-size: 16px; /* Adjust font size */
+    
+}
+
+/* Style for the Delete button */
+.delete-button {
+    background-color: #f44336; 
+    color: white; /* White text color */
+    border: none; /* Remove border */
+    padding: 10px 20px; /* Add some padding */
+    cursor: pointer; /* Add a pointer cursor on hover */
+    font-size: 16px; /* Adjust font size */
+}
+
+
+
+
+
+
+/* Delte Button confim Box Design */
+
+
+
+
+
+.confirm-box {
+    background: rgba(0, 0, 0, 0.5);
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 9999;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.message-box {
+    background: #fff;
+    text-align: center;
+    font-family: 16px;
+    line-height: 1.5;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+
+.button-box {
+    margin-top: 30px;
+}
+
+.yes-button,
+.no-button {
+    padding: 10px 10px;
+    font-size: 16px;
+    font-weight: bolder;
+    margin: 0 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.yes-button {
+    background: green;
+    color: #fff
+}
+
+.no-button {
+    background: red;
+    color: #fff
+}
+
+
+
+
+
+
+
+/*=================Search Bar Design============================*/
+.search-bar {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.search-bar input[type="text"] {
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin-right: 10px;
+    width: 800px; /* Adjust the width as needed */
+}
+
+.search-bar button {
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+.search-bar button:hover {
+    background-color: #45a049;
+}
+
+/* Font Awesome Icon */
+.search-bar button i {
+    margin-right: 5px;
+}
