@@ -1,0 +1,445 @@
+@import url('https://fonts.googleapis.com/css?family=Lato:200,400|Playfair+Display');
+
+body {
+  background-image: linear-gradient(190deg, rgba(0, 0, 99, .05) 10%, rgba(0, 0, 255, .19) 100%);
+  margin: 0;
+  width: 100%;
+  background-image: url('https://wallpapers.com/images/hd/dark-grunge-aesthetic-black-hotel-4nab5k1d7hmyihje.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+
+}
+
+
+.allcontent{
+  display: grid;
+  grid-template-columns: repeat(3,1fr);
+  gap: 2rem;
+}
+
+.main.active .allcontent{
+  display: grid;
+  grid-template-columns: repeat(4,1fr);
+  gap: 1rem;
+}
+
+
+
+
+.wrapper {
+  background-color: #f1f1f1;
+  margin: 1.5%;
+  padding: 2em 1em;
+  box-shadow: 0 1px 30px rgba(0, 0, 0, 0.12), 0 3px 5px rgba(0, 0, 0, 0.24);
+  text-align: center;
+}
+
+
+
+
+.wrapper>h1 {
+  font-family: "Lato", sans-serif;
+  font-weight: 200;
+  font-size: 1.5em;
+  letter-spacing: .15em;
+  color: #333;
+}
+
+.hoteldetails {
+  width: 95%;
+  margin: 0 auto 2em;
+  padding-top: 10.5em;
+  padding-bottom: 1em;
+  background-color: #FFEBC8;
+  color: #333;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 5px rgba(0, 0, 0, 0.24);
+  transition: all ease-in 0.15s;
+}
+
+.wrapper:hover .hoteldetails {
+  box-shadow: 0 14px 28px rgba(0, 0, 0, 0.25), 0 10px 5px rgba(0, 0, 0, 0.22);
+  transform: translate(0px, -2px) scale(1.01);
+}
+
+.hoteldetails>h1 {
+  font-family: "Playfair Display";
+  font-size: 1em;
+}
+
+.hoteldetails>h2 {
+  font-family: sans-serif;
+  font-size: 1.4em;
+  font-weight: 200;
+  letter-spacing: 0.1em;
+}
+
+.hoteldetails>p {
+  font-family: sans-serif;
+  font-size: 1em;
+  font-weight: 200;
+}
+
+.hotelimage {
+  position: relative;
+  z-index: 2;
+  width: 85%;
+  height: 250px;
+  margin: 0 auto -10em;
+  background-size: cover;
+  background-position: center;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 10px rgba(0, 0, 0, 0.24);
+  transition: all ease-in .15s;
+  background-image: url(https://31.media.tumblr.com/9e9ba532a3174811c79e07bc4a61ebdc/tumblr_n92w6iRSjY1r5gmiko1_500.jpg);
+}
+
+.hotelimage img {
+  width: 100%;
+  height: 250px;
+}
+
+.wrapper:hover .hotelimage {
+  box-shadow: 0 14px 28px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.22);
+  transform: translate(0px, -3px) scale(1.02);
+}
+
+.star {
+  display: inline-block;
+  margin-right: 5px;
+  transform: scale(0.5);
+}
+
+.starimg {
+  width: 30px;
+  height: 30px;
+}
+
+a {
+  text-decoration: none;
+  font-weight: bold;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* Add Section Design */
+/* Add Section Design */
+/* Add Section Design */
+/* Add Section Design */
+
+/* Style for the ADD Hotel button */
+.add-hotel-button {
+  position: relative;
+  left: 88%;
+  width: 150px;
+  height: 50px;
+  background-color: #0d7c02;
+  color: rgb(255, 255, 255);
+  padding: 10px 20px;
+  border: none;
+  font-weight: 900;
+  cursor: pointer;
+}
+
+.add-hotel-button:hover {
+  background-color: #034612;
+}
+
+
+/* Edit delete Button */
+.editdelbtn {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+  border-radius: 50%;
+}
+
+/* Style for the Edit button */
+.edit-button {
+  background-color: #4CAF50;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  cursor: pointer;
+  font-size: 16px;
+
+}
+
+/* Style for the Delete button */
+.delete-button {
+  background-color: #f44336;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+
+
+
+
+
+/* Delte Button confim Box Design */
+
+
+
+
+
+.confirm-box {
+  background: rgba(0, 0, 0, 0.5);
+  width: 100%;
+  height: 100%;
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 9999;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.message-box {
+  background: #fff;
+  text-align: center;
+  font-family: 16px;
+  line-height: 1.5;
+  padding: 20px;
+  border-radius: 5px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+
+.button-box {
+  margin-top: 30px;
+}
+
+.yes-button,
+.no-button {
+  padding: 10px 10px;
+  font-size: 16px;
+  font-weight: bolder;
+  margin: 0 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.yes-button {
+  background: green;
+  color: #fff
+}
+
+.no-button {
+  background: red;
+  color: #fff
+}
+
+
+/*Design for add hotel pop up  section */
+/*Design for add hotel pop up  section */
+/*Design for add hotel pop up  section */
+/*Design for add hotel pop up  section */
+/*Design for add hotel pop up  section */
+
+
+
+
+/* Style for the ADD hotel button */
+.add-hotel-button {
+  width: 150px;
+  height: 50px;
+  background-color: #0d7c02;
+  color: #fff;
+  padding: 10px 20px;
+  border: none;
+  font-weight: 900;
+  cursor: pointer;
+}
+
+.add-hotel-button:hover {
+  background-color: #034612;
+}
+
+
+.modal {
+  display: none;
+  position: fixed;
+  z-index: 9999;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.7);
+  overflow: hidden;
+}
+
+
+.modal-content {
+  background-color: #fff;
+  margin: 10% auto;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  width: 50%;
+  max-width: 800px;
+  position: relative;
+  z-index: 10000;
+  top: -130px;
+}
+
+
+.editmodal-content {
+  background-color: #fff;
+  margin: 10% auto;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  width: 25%;
+  max-width: 800px;
+  position: relative;
+  z-index: 10000;
+}
+
+/* Styles for the close button (the "x" symbol) */
+.close {
+  position: absolute;
+  top: 0;
+  right: 0;
+  padding: 10px;
+  color: red;
+  font-size: 24px;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+/* Styles for the form labels and input fields */
+label {
+  font-weight: bold;
+}
+
+input[type="text"],
+input[type="select"] {
+  width: 90%;
+  padding: 8px;
+  margin-bottom: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+/* Style the submit button */
+input[type="submit"] {
+  background-color: #4CAF50;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  padding: 12px 24px;
+  cursor: pointer;
+}
+
+/* Hover effect for the submit button */
+input[type="submit"]:hover {
+  background-color: #45a049;
+}
+
+.container {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  position: relative;
+}
+
+/* Styles for h2 headings within sections */
+.hoteldata h3,
+.roomdata h3 {
+  font-size: 20px;
+  color: #1f1403;
+  margin-top: 5px;
+}
+
+
+
+
+p {
+  font-weight: bold;
+  margin-top: 10px;
+  margin-bottom: 5px;
+}
+
+
+/* Updated styles to display hotel data on the left and room data on the right */
+/* Styles for the hoteldata section on the left */
+.hoteldata {
+  flex: 1;
+  box-sizing: border-box;
+  padding-right: 30px;
+}
+
+/* Styles for the roomdata section on the right */
+.roomdata {
+  flex: 1;
+  box-sizing: border-box;
+  padding-right: 30px;
+}
+
+
+
+
+
+
+
+/*=================Search Bar Design============================*/
+.search-bar {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.search-bar input[type="text"] {
+  padding: 10px;
+  font-size: 16px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  margin-right: 10px;
+  width: 800px;
+  /* Adjust the width as needed */
+}
+
+.search-bar button {
+  background-color: #4CAF50;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  padding: 10px 20px;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+.search-bar button:hover {
+  background-color: #45a049;
+}
+
+.search-bar button i {
+  margin-right: 5px;
+}
