@@ -1,0 +1,616 @@
+@import url('https://fonts.googleapis.com/css2?family=Agbalumo&display=swap');
+
+body {
+    /* background-image: url('https://images.pexels.com/photos/1268855/pexels-photo-1268855.jpeg?cs=srgb&dl=pexels-asad-photo-maldives-1268855.jpg&fm=jpg');
+    background-size: cover; 
+    background-repeat: no-repeat; 
+    background-attachment: fixed;  */
+    /* background-color: #f0f0f0; */
+    display: flex;
+    flex-direction: column;
+    /* position: relative;  */
+    justify-content: center;
+    align-items: center; 
+    height: 100%;
+    height: 100%;
+    overflow-x: hidden; /* Hide horizontal overflow */
+    overflow-y: visible; /* Allow vertical overflow */
+    
+}
+
+
+
+
+/* CSS for the main content */
+.content {
+    background-image: url('https://images.pexels.com/photos/1268855/pexels-photo-1268855.jpeg?cs=srgb&dl=pexels-asad-photo-maldives-1268855.jpg&fm=jpg');
+    background-size: cover; 
+    background-repeat: no-repeat; 
+    background-attachment: relative;
+    position: relative;
+    justify-content: center;
+    align-self: center;
+    text-align: center;
+    /* border: 1px solid black; */
+    width: 100vw;
+    height: 100vh;
+    /* width: 600px;
+    height: 580px;
+    background: rgba(228, 224, 224, 0.548); */
+    /* border-style:solid;   */
+    /* border-radius: 5%; */
+}
+.contentitem{
+    margin-top: 100px;
+    position: relative;
+    /* flex-direction: column; */
+    justify-content: center;
+    align-items: center;
+}
+.allbox{
+    margin-left: 120px;
+    margin-top: 150px;
+    padding: 40px;
+    background: rgba(0, 0, 0, 0.39);
+    width: 84%;
+    display: flex;
+    flex-direction: column;
+    border-radius: 20px;
+}
+.inputall{
+   
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+    gap: 10px;
+    border-radius: 10px;
+    margin-bottom: 10px;
+}
+
+/* Additional styling for input fields */
+.input-group {
+    display: flex;
+    flex-direction: column;
+    /* align-items: center; */
+    margin-bottom: 30px;
+}
+
+.input-group label {
+    text-align: left;
+    margin-left: 10px;
+    margin-bottom: 5px;
+    /* color:#22223B; */
+    color:rgb(255, 255, 255);
+    width: 200px;
+    font-size: 20px;
+    font-weight: 800;
+}
+
+.input-group input[type="text"],
+.input-group input[type="date"],
+.input-group select {
+    padding: 6px;
+    border: 1px solid #ccc;
+    width: 400px;
+    height: 30px;
+    border-radius: 20px;
+    background-color: rgb(0, 0, 0,0.5);
+    color: #fff;
+    border: 0 0 1px rgb(0, 0, 0);
+    border-style: solid;
+    border-color: rgb(255, 252, 252);
+}
+.input-group select {
+        height: 43px;
+}
+
+::placeholder{
+    color: rgb(170, 169, 169);
+}
+
+/* Additional styling for the button */
+.center-button {
+    text-align: center;
+}
+
+.center-button button {
+    /* margin-top: 10px; */
+    padding: 12px 20px;
+    background-color: #333;
+    color: white;
+    font-size: 20px;
+    border: none;
+    /* border-radius: 15%; */
+    cursor: pointer;
+}
+
+.center-button button:hover {
+    background-color: #555;
+}
+
+
+h1{
+    font-family: 'Agbalumo';
+    font-size: 100px;
+    /* color: transparent;
+    /* -webkit-text-stroke: 1px #000000; */
+   /* background-image: linear-gradient(#bd9d9d,#023d28);
+    background-repeat: no-repeat;
+    -webkit-background-clip: text;
+    background-position: -1675px 0;
+    animation: backcolor 8s linear infinite backwards; */
+    color: transparent;
+    -webkit-text-stroke: 1px #000000;
+    background: url('https://i.ibb.co/bJYxTCT/back.png');
+    -webkit-background-clip: text;
+    background-position: 0 0;
+    animation: back 15s linear infinite;
+}
+
+/* @keyframes backcolor{
+    100%{
+        background-position: -300px 0;
+    }
+} */
+@keyframes back{
+    100%{
+        background-position: 2000px 0;
+    }
+}
+h3{
+    font-family: 'Agbalumo';
+    font-size: 40px;
+    color: transparent;
+    -webkit-text-stroke: 1px #000000;
+    background: url('https://i.ibb.co/bJYxTCT/back.png');
+    -webkit-background-clip: text;
+    background-position: 0 0;
+    animation: back 15s linear infinite;
+}
+@keyframes back{
+    100%{
+        background-position: 2000px 0;
+    }
+}
+
+
+
+.displaysome{
+    /* background-image: url('https://img.freepik.com/free-photo/world-map-continent-global-support-graphic_53876-124649.jpg?w=740&t=st=1699465006~exp=1699465606~hmac=5a812ac4be9c528c0b3074300e3cd53d71d47cb65977787617a31790be94611e'); */
+    /* background-image: url('https://assets-global.website-files.com/6068edfd58b664357f69cc3f/63f4ed4fe2ba451c3768ad38_How%20to%20Get%20a%20Job%20in%20Dubai%20-%20The%20Engish%20Meeting%20Room.jpg'); */
+    background-image: url('https://img.belmond.com/f_auto/t_2580x1451/photos/las/las-gst-pool03.jpg');
+    background-size: cover; 
+    background-repeat: no-repeat; 
+    background-attachment: relative;
+    position: relative;
+    justify-content: center;
+    align-self: center;
+    text-align: center;
+    /* border: 1px solid black; */
+    width: 100vw;
+    height: 100vh;
+
+}
+
+
+
+
+
+
+
+
+
+.popular{
+    color:#3b2c2c;
+}
+
+
+/* featured */
+
+.py-4{
+    margin-top: 100px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-left: 100px;
+    margin-right: 100px;
+    
+}
+.featured-row{
+    margin-top: 20px;
+    display:grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 10px;
+}
+
+
+
+.featured-item{
+    position: relative;
+    width: 100%;
+    overflow: hidden;
+    border-radius: 20px;
+    
+}
+.featured-item::after{
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 1;
+    /* background: -webkit-gradient(linear, left top, left bottom, from(transparent), color-stop(18%, transparent), color-stop(99%, rgba(0, 0, 0, 0.8)), to(rgba(0, 0, 0, 0.8))); */
+    background: -o-linear-gradient(top, transparent 0%, transparent 18%, rgba(0, 0, 0, 0.8) 99%, rgba(0, 0, 0, 0.8) 100%);
+    background: linear-gradient(to bottom, transparent 0%, transparent 18%, rgba(0, 0, 0, 0.8) 99%, rgba(0, 0, 0, 0.8) 100%);
+}
+.featured-item-content{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    z-index: 2;
+    color: #fff;
+    width: 100%;
+    padding: 1rem;
+}
+.featured-item-content span{
+    font-size: 1.2rem;
+    display: block;
+    margin-bottom: 1.2rem;
+    text-transform: capitalize;
+}
+
+.featured-item img{
+    width: 100%;   
+    height: 400px;
+    
+}
+
+
+
+/* ============scrollbar============= */
+
+::-webkit-scrollbar {
+    width: .6rem;
+    border-radius: .5rem;
+    background: var(--txt-light);
+    background: #e9ebec;
+}
+
+::-webkit-scrollbar-thumb {
+    border-radius: .5rem;
+    background: #657481;;
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background: #22272b;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* =============================Our Sevice Design========================= */
+
+
+.displaysome2{
+    /* background-image: url('https://img.freepik.com/free-photo/world-map-continent-global-support-graphic_53876-124649.jpg?w=740&t=st=1699465006~exp=1699465606~hmac=5a812ac4be9c528c0b3074300e3cd53d71d47cb65977787617a31790be94611e'); */
+    /* background-image: url('https://assets-global.website-files.com/6068edfd58b664357f69cc3f/63f4ed4fe2ba451c3768ad38_How%20to%20Get%20a%20Job%20in%20Dubai%20-%20The%20Engish%20Meeting%20Room.jpg'); */
+    background-image: url('https://media.licdn.com/dms/image/C4D1BAQGGdNo6IlDOCQ/company-background_10000/0/1583275772247?e=2147483647&v=beta&t=ew3hpSAiCXTa43sck6sdYbo3gn09VJaKiFTsizSa0HU');
+    background-size: cover; 
+    background-repeat: no-repeat; 
+    background-attachment: relative;
+    position: relative;
+    justify-content: center;
+    align-self: center;
+    text-align: center;
+    /* border: 1px solid black; */
+    width: 100vw;
+    height: 100vh;
+
+}
+
+
+.py-3{
+    margin-top: 100px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-left: 100px;
+    margin-right: 100px;
+    
+}
+.featured-row2{
+    margin-top: 20px;
+    display:grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 10px;
+}
+
+
+
+.featured-item2{
+    position: relative;
+    width: 100%;
+    overflow: hidden;
+    border-radius: 20px;
+    height: 400px;
+    
+}
+.featured-item2::after{
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 1;
+    /* background: -webkit-gradient(linear, left top, left bottom, from(transparent), color-stop(18%, transparent), color-stop(99%, rgba(0, 0, 0, 0.8)), to(rgba(0, 0, 0, 0.8))); */
+    /* background: -o-linear-gradient(top, transparent 0%, transparent 18%, rgba(0, 0, 0, 0.8) 99%, rgba(0, 0, 0, 0.8) 100%); */
+    background: linear-gradient(to bottom, transparent 0%, transparent 18%, rgba(0, 0, 0, 0.8) 99%, rgba(0, 0, 0, 0.8) 100%);
+}
+.featured-item-content2{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    z-index: 2;
+    color: #fff;
+    width: 100%;
+    padding: 1rem;
+}
+.featured-item-content2 span{
+    font-size: 1.2rem;
+    display: block;
+    text-transform: capitalize;
+}
+
+.featured-item2 img{
+    width: 100%;   
+    height: 310px;
+    
+}
+
+
+.service{
+    width: 100%;
+    margin-left: -20px;
+    margin-bottom: -20px;
+    /* margin-top: 500px; */
+    padding: 20px;
+    background: black;
+}
+
+.py-3 .popular{
+    color: #fff;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* ==============================footer design========================== */
+@import url(https://fonts.googleapis.com/css?family=Open+Sans:400,500,300,700);
+
+
+.footer-distributed{
+    font-family: Open Sans;
+	background: rgb(0, 0, 0);
+	box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.12);
+	box-sizing: border-box;
+	width: 100vw;
+    /* margin-left: -40px;
+    margin-right: -40px; */
+    margin-bottom: -20px;
+	text-align: left;
+	font: bold 16px sans-serif;
+	padding: 55px 50px;
+}
+
+.footer-distributed .footer-left,
+.footer-distributed .footer-center,
+.footer-distributed .footer-right{
+	display: inline-block;
+	vertical-align: top;
+}
+
+/* Footer left */
+
+.footer-distributed .footer-left{
+	width: 40%;
+}
+
+/* The company logo */
+
+.footer-distributed h3{
+    color:  lightseagreen;
+	font: normal 36px 'Open Sans', cursive;
+	margin: 0;
+}
+.footer-distributed h3 img{
+    position: relative;
+    top: 15px;
+    margin-right: 10px;
+    width: 60px;
+    height: 60px;
+}
+
+.footer-distributed h3 span{
+    color:  #ffffff;
+	/* color:  lightseagreen; */
+}
+
+/* Footer links */
+
+.footer-distributed .footer-links{
+	color:  #ffffff;
+	margin: 20px 0 12px;
+	padding: 0;
+}
+
+.footer-distributed .footer-links a{
+	display:inline-block;
+	line-height: 1.8;
+  font-weight:400;
+	text-decoration: none;
+	color:  inherit;
+}
+
+.footer-distributed .footer-company-name{
+	color:  #a8a6a6;
+	font-size: 14px;
+	font-weight: normal;
+	margin: 0;
+}
+
+/* Footer Center */
+
+.footer-distributed .footer-center{
+	width: 35%;
+}
+
+.footer-distributed .footer-center i{
+	background-color:  #33383b;
+	color: #ffffff;
+	font-size: 25px;
+	width: 38px;
+	height: 38px;
+	border-radius: 50%;
+	text-align: center;
+	line-height: 42px;
+	margin: 10px 15px;
+	vertical-align: middle;
+}
+
+.footer-distributed .footer-center i.fa-envelope{
+	font-size: 17px;
+	line-height: 38px;
+}
+
+.footer-distributed .footer-center p{
+	display: inline-block;
+	color: #ffffff;
+  font-weight:400;
+	vertical-align: middle;
+	margin:0;
+}
+
+.footer-distributed .footer-center p span{
+	display:block;
+	font-weight: normal;
+	font-size:14px;
+	line-height:2;
+}
+
+.footer-distributed .footer-center p a{
+	color:  lightseagreen;
+	text-decoration: none;;
+}
+
+.footer-distributed .footer-links a:before {
+  content: "|";
+  font-weight:300;
+  font-size: 20px;
+  left: 0;
+  color: #fff;
+  display: inline-block;
+  padding-right: 5px;
+}
+
+.footer-distributed .footer-links .link-1:before {
+  content: none;
+}
+
+/* Footer Right */
+
+.footer-distributed .footer-right{
+	width: 20%;
+}
+
+.footer-distributed .footer-company-about{
+	line-height: 20px;
+	color:  #92999f;
+	font-size: 13px;
+	font-weight: normal;
+	margin: 0;
+}
+
+.footer-distributed .footer-company-about span{
+	display: block;
+	color:  #ffffff;
+	font-size: 14px;
+	font-weight: bold;
+	margin-bottom: 20px;
+}
+
+.footer-distributed .footer-icons{
+	margin-top: 25px;
+}
+
+.footer-distributed .footer-icons a{
+	display: inline-block;
+	width: 35px;
+	height: 35px;
+	cursor: pointer;
+	background-color:  #33383b;
+	border-radius: 2px;
+
+	font-size: 20px;
+	color: #ffffff;
+	text-align: center;
+	line-height: 35px;
+
+	margin-right: 3px;
+	margin-bottom: 5px;
+}
+
+/* If you don't want the footer to be responsive, remove these media queries */
+
+@media (max-width: 880px) {
+
+	.footer-distributed{
+		font: bold 14px sans-serif;
+	}
+
+	.footer-distributed .footer-left,
+	.footer-distributed .footer-center,
+	.footer-distributed .footer-right{
+		display: block;
+		width: 100%;
+		margin-bottom: 40px;
+		text-align: center;
+	}
+
+	.footer-distributed .footer-center i{
+		margin-left: 0;
+	}
+
+}
