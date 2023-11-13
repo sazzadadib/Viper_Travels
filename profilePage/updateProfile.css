@@ -1,0 +1,74 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    background: url('https://static.vecteezy.com/system/resources/previews/000/623/977/non_2x/dark-ornament-wallpaper-vector.jpg') no-repeat;
+    background-size: cover;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+}
+
+
+.content{
+    color: #ffffff;
+    max-width: 500px;
+    padding: 20px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    background: rgba(44, 44, 44, 0.568);    
+    padding: 40px 20px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+    width: 400px;
+   
+}
+
+h2 {
+    text-align: center;
+    margin-top: 20px;
+}
+
+
+form table {
+    width: 100%;
+}
+
+form table tr td {
+    padding: 10px;
+    font-weight: bold;
+}
+
+form input[type="text"],
+form input[type="password"],
+form input[type="email"] {
+    width: 100%;
+    padding: 10px;
+    color: #ffffff;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+    outline: none;
+    font-weight: 800;
+    background: transparent;
+}
+
+
+form input[type="submit"] {
+  
+    color: #ffffff;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    display: block;
+    margin: 0 auto; 
+    text-align: center; 
+    margin-top: 20px;
+    background: rgb(2, 121, 2);
+}
+
+form input[type="submit"]:hover {
+    background-color: #014911;
+}
