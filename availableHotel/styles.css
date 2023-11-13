@@ -1,0 +1,457 @@
+@import url('https://fonts.googleapis.com/css?family=Lato:200,400|Playfair+Display');
+
+body {
+  background-image: linear-gradient(190deg, rgba(0, 0, 99, .05) 10%, rgba(0, 0, 255, .19) 100%);
+  padding-left: 10%;
+  margin: 0;
+  width: 80%;
+  background-image: url('https://wallpapers.com/images/hd/dark-grunge-aesthetic-black-hotel-4nab5k1d7hmyihje.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+
+}
+
+
+
+
+
+
+
+.wrapper {
+  float: left;
+  width: 30%;
+  min-width: 300px;
+  background-color: #f1f1f1;
+  margin: 1.5%;
+  padding: 2em 1em;
+  box-sizing: border-box;
+  box-shadow: 0 1px 30px rgba(0, 0, 0, 0.12), 0 3px 5px rgba(0, 0, 0, 0.24);
+  text-align: center;
+}
+
+.wrapper>h1 {
+  font-family: "Lato", sans-serif;
+  font-weight: 200;
+  font-size: 1.5em;
+  letter-spacing: .15em;
+  color: #333;
+}
+
+.details {
+  width: 95%;
+  margin: 0 auto 2em;
+  padding-top: 10.5em;
+  padding-bottom: 1em;
+  background-color: #FFEBC8;
+  color: #333;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 5px rgba(0, 0, 0, 0.24);
+  transition: all ease-in 0.15s;
+}
+
+.wrapper:hover .details {
+  box-shadow: 0 14px 28px rgba(0, 0, 0, 0.25), 0 10px 5px rgba(0, 0, 0, 0.22);
+  transform: translate(0px, -2px) scale(1.01);
+}
+
+.details>h1 {
+  font-family: "Playfair Display";
+  font-size: 1em;
+}
+
+.details>h2 {
+  font-family: sans-serif;
+  font-size: 1.4em;
+  font-weight: 200;
+  letter-spacing: 0.1em;
+}
+
+.details>p {
+  font-family: sans-serif;
+  font-size: 1em;
+  font-weight: 200;
+}
+
+.image {
+  position: relative;
+  z-index: 2;
+  width: 85%;
+  height: 250px;
+  margin: 0 auto -10em;
+  background-size: cover;
+  background-position: center;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 10px rgba(0, 0, 0, 0.24);
+  transition: all ease-in .15s;
+  background-image: url(https://31.media.tumblr.com/9e9ba532a3174811c79e07bc4a61ebdc/tumblr_n92w6iRSjY1r5gmiko1_500.jpg);
+}
+
+.image img {
+  width: 100%;
+  height: 250px;
+}
+
+.wrapper:hover .image {
+  box-shadow: 0 14px 28px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.22);
+  transform: translate(0px, -3px) scale(1.02);
+}
+
+
+@media screen and (max-width: 1000px) {
+  .wrapper {
+    width: 47%;
+  }
+}
+
+@media screen and(max-width:700px) {
+  .wrapper {
+    float: none;
+    width: 70%;
+    margin: 1em auto;
+  }
+}
+
+@media screen and(max-width:700px) {
+  .wrapper {
+    float: none;
+    width: 70%;
+    margin: 1em auto;
+  }
+}
+
+
+.star {
+  display: inline-block;
+  margin-right: 5px;
+  transform: scale(0.5);
+ 
+}
+
+.star img {
+  width: 30px;
+  height: 30px;
+}
+
+a {
+  text-decoration: none;
+  font-weight: bold;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* Add Section Design */
+/* Add Section Design */
+/* Add Section Design */
+/* Add Section Design */
+
+
+.add-hotel-button {
+  position: relative;
+  left: 100%;
+  width: 150px;
+  height: 50px;
+  background-color: #0d7c02;
+  color: rgb(255, 255, 255);
+  padding: 10px 20px;
+  border: none;
+  font-weight: 900;
+  cursor: pointer;
+}
+
+.add-hotel-button:hover {
+  background-color: #034612;
+}
+
+
+.editdelbtn {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+  border-radius: 50%;
+}
+
+.edit-button {
+  background-color: #4CAF50;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  cursor: pointer;
+  font-size: 16px;
+
+}
+
+.delete-button {
+  background-color: #f44336;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+
+
+
+
+
+/* Delte Button confim Box Design */
+
+
+
+
+
+.confirm-box {
+  background: rgba(0, 0, 0, 0.5);
+  width: 100%;
+  height: 100%;
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 9999;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.message-box {
+  background: #fff;
+  text-align: center;
+  font-family: 16px;
+  line-height: 1.5;
+  padding: 20px;
+  border-radius: 5px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+
+.button-box {
+  margin-top: 30px;
+}
+
+.yes-button,
+.no-button {
+  padding: 10px 10px;
+  font-size: 16px;
+  font-weight: bolder;
+  margin: 0 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.yes-button {
+  background: green;
+  color: #fff
+}
+
+.no-button {
+  background: red;
+  color: #fff
+}
+
+
+/*Design for add hotel pop up  section */
+/*Design for add hotel pop up  section */
+/*Design for add hotel pop up  section */
+/*Design for add hotel pop up  section */
+/*Design for add hotel pop up  section */
+
+
+
+
+/* Style for the ADD hotel button */
+/* Styles for the add-hotel-button */
+/* Styles for the add-hotel-button */
+.add-hotel-button {
+  width: 150px;
+  height: 50px;
+  background-color: #0d7c02;
+  color: #fff;
+  padding: 10px 20px;
+  border: none;
+  font-weight: 900;
+  cursor: pointer;
+}
+
+.add-hotel-button:hover {
+  background-color: #034612;
+}
+
+
+.modal {
+  display: none;
+  position: fixed;
+  z-index: 9999;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.7);
+  overflow: auto;
+}
+
+.modal-content {
+  background-color: #fff;
+  margin: 10% auto;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  width: 30%;
+  max-width: 800px;
+  position: relative;
+  z-index: 10000;
+}
+
+
+.editmodal-content {
+  background-color: #fff;
+  margin: 10% auto;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  width: 30%;
+  max-width: 800px;
+  position: relative;
+  z-index: 10000;
+}
+
+
+.close {
+  position: absolute;
+  top: 0;
+  right: 0;
+  padding: 10px;
+  color: red;
+  font-size: 24px;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+
+label {
+  font-weight: bold;
+}
+
+input[type="text"],
+input[type="select"] {
+  width: 90%;
+  padding: 8px;
+  margin-bottom: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+
+input[type="submit"] {
+  background-color: #4CAF50;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  padding: 12px 24px;
+  cursor: pointer;
+}
+
+
+input[type="submit"]:hover {
+  background-color: #45a049;
+}
+
+.container {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  position: relative;
+}
+
+
+.hoteldata h3,
+.roomdata h3 {
+  font-size: 20px;
+  color: #1f1403;
+  margin-top: 5px;
+}
+
+
+
+
+p {
+  font-weight: bold;
+  margin-top: 10px;
+  margin-bottom: 5px;
+}
+
+
+
+.hoteldata {
+  flex: 1;
+  box-sizing: border-box;
+  padding-right: 30px;
+}
+
+
+.roomdata {
+  flex: 1;
+  box-sizing: border-box;
+  padding-right: 30px;
+}
+
+
+
+
+
+
+
+/*=================Search Bar Design============================*/
+.search-bar {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.search-bar input[type="text"] {
+  padding: 10px;
+  font-size: 16px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  margin-right: 10px;
+  width: 800px;
+}
+
+.search-bar button {
+  background-color: #4CAF50;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  padding: 10px 20px;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+.search-bar button:hover {
+  background-color: #45a049;
+}
+
+.search-bar button i {
+  margin-right: 5px;
+}
