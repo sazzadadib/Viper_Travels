@@ -1,0 +1,227 @@
+body{
+    font-family:'Times New Roman', Times, serif;
+    font-size: 100%;
+    font-size: 16px;
+    line-height: 1.5;
+    background: #f0f4fb;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    background-image: url('https://bogatyr.club/uploads/posts/2023-03/1679412931_bogatyr-club-p-ornament-na-chernom-fone-vkontakte-1.jpg');
+    background-size: cover; 
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+.site-container{
+    margin: 2rem auto;
+    max-width: calc(100% - 80px);
+}
+.article-container{
+    display: grid;
+    grid-template-columns: repeat(auto-fill,minmax(265px,1fr));
+    gap: 2rem;
+
+}
+.article-image{
+    margin:0;
+    padding:0;
+    overflow:hidden;
+}
+.article-image img{
+    max-width: 100%;
+    height:auto;
+    border-radius: 20px 20px 0 0;
+}
+.article-card{
+    background: rgba(255, 255, 255, 0.747);
+    border-radius: 20px;
+    transform: 0.3s;
+}
+.article-card:hover {
+    box-shadow: 0 4px 20px 0 rgba(34,68,123,0.2);
+    cursor: pointer;
+}
+.article-content{
+    padding: 2rem;
+}
+.article-content .card-category{
+    font-size:0.875rem;
+    text-transform: uppercase;
+    letter-spacing: 0.1em;
+    color:#6b82a7;
+    display: block;
+    text-decoration: none;
+}
+.article-content .card-title{
+    margin: 1rem 0;
+    color: #22447b;
+}
+.article-content .card-excerpt{
+    font-size: 1rem;
+    line-height: 1.5rem;
+    color:#6b82a7;
+    margin: 0;
+}
+@media screen and (min-width:768px){
+    .site-container{
+        max-width:608 px;
+    }
+    .article-card{
+        display: grid;
+        grid-template-rows: 220px 1fr;
+    }
+}
+@media screen and (min-width: 1280px){
+    .site-container{
+        max-width: 1156px;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*Design for add bus pop up  section */
+/*Design for add bus pop up  section */
+/*Design for add bus pop up  section */
+/*Design for add bus pop up  section */
+/*Design for add bus pop up  section */
+
+
+
+
+/* Style for the ADD BUS button */
+.add-bus-button {
+    position: relative;
+    left: 100%;
+    width: 150px;
+    height: 50px;
+    background-color: #0d7c02;
+    color: rgb(255, 255, 255);
+    padding: 10px 20px;
+    border: none;
+    font-weight: 900;
+    cursor: pointer;
+}
+.add-bus-button:hover {
+    background-color: #034612;
+} 
+
+
+
+
+.modal {
+    display: none; 
+    position: fixed;
+    z-index: 1;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.7);
+}
+
+
+.modal-content {
+    background-color: #fff;
+    margin: 15% auto;
+    top: -170px;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    width: 90%;
+    max-width: 400px;
+    position: relative;
+}
+
+
+.close {
+    position: absolute;
+    top: 0;
+    right: 0;
+    padding: 10px;
+    color: red;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+/* Styles for the form labels and input fields */
+label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+input[type="text"],[type="time"] {
+    width: 90%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+/* Style the submit button */
+input[type="submit"] {
+    background-color: #4CAF50;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    padding: 10px 20px;
+    cursor: pointer;
+}
+
+/* Hover effect for the submit button */
+input[type="submit"]:hover {
+    background-color: #45a049;
+}
+.editdelbtn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px; 
+    border-radius: 50%;
+}
+
+/* Style for the Edit button */
+.booking {
+    background-color: #4CAF50; 
+    color: white; 
+    border: none;
+    padding: 10px 20px; 
+    cursor: pointer; 
+    font-size: 16px; 
+    text-decoration: none;
+    font-weight: 900;
+    
+}
+
+/* Style for the Delete button */
+.delete-button {
+    background-color: #f44336; 
+    color: white; 
+    border: none; 
+    padding: 10px 20px;
+    cursor: pointer; 
+    font-size: 16px; 
+}
+
+
+
+
+h1{
+    align-items: center;
+    text-align: center;
+    background-color: #000000;
+    color: #fff;
+}
+
