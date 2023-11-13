@@ -1,0 +1,245 @@
+body, h1, p {
+    margin: 0;
+    padding: 0;
+}
+
+html, body {
+    height: 100%;
+    margin: 0;
+    margin-top: 30px;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #f0f0f0;
+    overflow: hidden;
+}
+
+
+.confirmation-container {
+    max-width: 1000px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    border: 2px solid #435cb1;
+    
+}
+
+
+h1 {
+    text-align: center;
+    margin-bottom: 20px;
+    color: #333;
+}
+
+
+.booking-details {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 20px;
+}
+
+/* Style the namedate section */
+.namedate {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+
+}
+
+/* Style the image */
+.namedate figure img {
+    max-width: 200px;
+    height: auto;
+    border: 2px solid #333;
+    position: relative;
+    top: 0px;
+    left: -30px;
+}
+
+
+.totalamount {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    margin-top: 20px;
+}
+
+
+.total, .paid {
+    padding: 10px;
+    text-align: right;
+    width: 50%;
+}
+
+.total p, .paid p {
+    font-weight: bold;
+    font-size: 18px;
+}
+
+
+@media (max-width: 768px) {
+    .confirmation-container {
+        padding: 10px;
+    }
+
+    .namedate {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    .namedate figure img {
+        max-width: 100%;
+        margin-top: 10px;
+    }
+}
+
+
+div.hotelname {
+    border: 1px solid #ccc;
+    padding: 20px;
+}
+
+
+.hotel {
+    background-color: #459288;
+    color: #fff;
+    padding: 10px;
+    margin: 0;
+    font-weight: 700;
+    font-size: 24px;
+}
+
+.name {
+    color: #248ee4;
+    position: relative;
+    top: -50px;
+    left: -60px;
+    margin: 0;
+    font-weight: 700;
+    font-size: 24px;
+}
+
+.guest {
+    color: #036374;
+    position: relative;
+    top: -40px;
+    left: -60px;
+    margin: 0;
+    font-weight: 700;
+    font-size: 14px;
+}
+
+
+.dates {
+    text-align: left;
+    color: #506e2c;
+    position: relative;
+    top: 0 px;
+    left: 0px;
+    margin: 0;
+    font-weight: 700;
+    font-size: 16px;
+}
+
+
+div.hotelname .plan-information table {
+    border-collapse: collapse;
+    width: 100%;
+    background-color: #7e9fbd49;
+    
+}
+
+
+div.hotelname .plan-information td {
+    border: 1px solid #ccc;
+    padding: 8px;
+    text-align: left;
+    font-weight: bold;
+    border-color: #000000;
+}
+
+
+div.hotelname .plan-information .sub-table {
+    width: 100%;
+}
+
+
+div.hotelname .plan-information .sub-table tr:first-child {
+    font-weight: bold;
+}
+
+.bookingID {
+    font-size: 14px;
+    font-weight: bold;
+    margin-bottom: 10px;
+    color: #5272dd;
+}
+
+.booking-reference {
+    color: #ff6600;
+    font-size: 14px;
+    font-weight: bold;
+}
+
+.titledate {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.dates {
+    flex: 0 0 auto;
+}
+
+
+.card-row {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.avaipayment {
+    display: flex;
+    justify-content: center;
+    font-weight: 600;
+    margin-top: 40px;
+}
+
+
+.card-row span {
+    display: inline-block;
+    width: 32px;
+    height: 32px;
+    background-size: cover;
+    margin: 0 10px;
+}
+
+.visa {
+    background-image: url('https://cdn-icons-png.flaticon.com/128/349/349221.png');
+}
+
+.mastercard {
+    background-image: url('https://cdn.iconscout.com/icon/free/png-512/free-mastercard-10-226450.png?f=avif&w=256');
+}
+
+.amex {
+    background-image: url('https://cdn-icons-png.flaticon.com/128/179/179431.png');
+}
+
+.bkash {
+    background-image: url('https://freelogopng.com/images/all_img/1656234745bkash-app-logo-png.png');
+}
+
+
+#printButton {
+    color: #036374;
+    position: relative;
+    top: -20px;
+    left: 355px;
+    margin: 0;
+    font-weight: 700;
+    font-size: 14px;
+}
