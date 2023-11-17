@@ -241,9 +241,9 @@ session_start();
                 <p><span>Uttara</span> Dhaka, Bangladesh</p>
             </div>
             
-            <div>
+            <div class="call_number">
                 <i class="fa-solid fa-phone"></i>
-                <p>+8801878009399</p>
+                <a href="tel:+8801878009399">+8801878009399</a>
             </div>
             
             <div>
